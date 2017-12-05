@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 import FontAwesome from 'react-fontawesome';
 
-class App extends Component {
+class MenuBar extends Component {
   render() {
     return (
         <div className="App-menubar">
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default MenuBar;
