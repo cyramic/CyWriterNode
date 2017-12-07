@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './lib/header/basicheader.js'
 import MenuBar from './lib/menubar/menubar.js'
-import TinyEditor from './lib/editor/editor.js'
+import DocumentPage from './lib/documentpage/documentpage.js'
 
 import './App.css';
 import './lib/fa/css/font-awesome.min.css'
@@ -21,7 +21,7 @@ class App extends Component {
         <Header />
         <MenuBar />
         <div className="App-intro">
-          <TinyEditor />
+          <DocumentPage />
         </div>
       </div>
     );

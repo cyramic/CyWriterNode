@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tinymce/tinymce-react": "^2.0.3",
     "babel-cli": "^6.26.0",
     "node-import": "^0.9.2",
     "prop-types": "^15.6.0",
@@ -14,9 +13,7 @@
     "react-fontawesome": "^1.6.1",
     "react-modal": "^3.1.7",
     "react-rte": "^0.15.0",
-    "react-scripts": "1.0.17",
-    "react-tinymce": "^0.7.0",
-    "tinymce": "^4.7.4"
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
