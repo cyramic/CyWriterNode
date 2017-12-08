@@ -13,10 +13,24 @@
   padding-left: 30px;
   float:left;
 }
+
 .App-menuitem {
   padding:5px;
   text-align:left;
+  background-color:#fff;
+  width:120px;
+  border: none;
+}
 
+button:focus {outline:0;}
+
+.App-menuitem.change {
+  border:none;
+}
+
+.App-menuitem:active {
+  border:none;
+  text-decoration:underline;
 }
 
 .App-menubar {
